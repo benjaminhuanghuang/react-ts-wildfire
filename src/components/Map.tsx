@@ -1,10 +1,12 @@
 import React from "react";
 import GoogleMapReact, { Coords } from "google-map-react";
 import LocationMarker from "./LocationMaker";
+import { Event } from "../models";
 
 interface MapProps {
   center?: Coords;
   zoom?: number;
+  eventData: Event[];
 }
 const Map: React.FC<MapProps> = ({ center, zoom }) => {
   return (
