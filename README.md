@@ -13,7 +13,11 @@ https://eonet.sci.gsfc.nasa.gov/api/v2.1/events
 
 ## google map
 ```
-  npm i google-map-react
+  npm i google-map-react @types/google-map-react
+```
+```
+  <GoogleMapReact bootstrapURLKeys={{ key:"..." }}>
+  </GoogleMapReact>
 ```
 https://developers.google.com/maps/documentation/javascript/get-api-key
 
